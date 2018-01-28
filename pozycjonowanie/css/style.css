@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+}
+
+div {
+    margin: 10px;
+}
+
+div#kontener {
+    background-color: beige;
+    padding: 10px;
+}
+
+div#kontener > div#pierwszy {
+    background-color: chocolate;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+div#kontener > div#drugi {
+    background-color: lime;
+}
+
+
+div {
+    margin: 10px;
+}
+
+div#kontener-abs {
+    background-color: teal;
+    padding: 10px;
+}
+
+div#kontener-abs > div#pierwszy-abs {
+    background-color: blueviolet;
+    color: greenyellow;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+div#kontener-abs > div#drugi-abs {
+    background-color: cyan;
+}
