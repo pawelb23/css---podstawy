@@ -18,3 +18,15 @@ p{
 #moniki p {
     color: green;
 }
+
+div#moniki> div> div> p {
+    color: lightcoral;
+}
+
+p#selektor-po-id ~ p {
+    color: orange
+}
+
+p#selektor-po-id + p {
+    color: magenta;
+}
