@@ -1,6 +1,7 @@
 body {
     background-color: deepskyblue;
 }
+
 p{
     background-color: gray;
     color: #fff;
@@ -9,6 +10,11 @@ p{
 #selektor-po-id {
 	color: yellow;
 }
+
 .selektor-po-klasie {
     color: violet;
+}
+
+#moniki p {
+    color: green;
 }
