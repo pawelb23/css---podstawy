@@ -48,6 +48,7 @@ img {
     top: 65%;
     left: 35%;
     font-size: 50px;
+    text-transform: uppercase;
 }
 
 section {
@@ -56,9 +57,18 @@ section {
     padding: 0 50px;
 }
 
+#contact #contact-header {
+    margin-bottom: 20px;
+}
+
 footer {
     top: 25px;
     background-color: black;
     color: white;
     text-align: center;
 }
+
+
+
+
+
