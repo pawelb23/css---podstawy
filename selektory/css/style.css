@@ -2,7 +2,7 @@ body {
     background-color: deepskyblue;
 }
 
-p{
+p {
     background-color: gray;
     color: #fff;
 }
@@ -11,8 +11,8 @@ p{
 	color: yellow;
 }
 
-.selektor-po-klasie {
-    color: violet;
+.selektor-po-klasie  {
+    color: violet !important;
 }
 
 #moniki p {
@@ -28,5 +28,8 @@ p#selektor-po-id ~ p {
 }
 
 p#selektor-po-id + p {
-    color: magenta;
+    color: maroon;
+}
+p > a {
+    color: crimson;
 }
